@@ -1,3 +1,5 @@
+Ejercicio 0.4
+
 ```mermaid
   graph TD;
       A-->B;
