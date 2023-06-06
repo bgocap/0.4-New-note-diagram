@@ -77,7 +77,7 @@ sequenceDiagram
         Note over Browser,Server: The browser executes the callback function that renders the notes.
     end
     rect rgb(191, 223, 255)
-        Note over Browser,Server: User wrote in the text box: "test2", <br/> then pressed submit which adds the user input straight  to the browser <br/> and makes the request to the server for only insert the user's imput.
+        Note over Browser,Server: User wrote in the text box: "test2", <br/> then pressed submit which adds the user input straight  to the browser <br/> and makes the request to the server for only insert the user's input.
         Browser->>Server:POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     end
     rect rgb(191, 223, 255)
