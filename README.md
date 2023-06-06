@@ -1,2 +1,7 @@
-# Full-Stack-Open-5cr---Part-0
-Full Stack Open - University of Helsinki
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
