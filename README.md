@@ -13,7 +13,7 @@ sequenceDiagram
     end
     Browser->>Server:GET https://studies.cs.helsinki.fi/exampleapp/data.json
     rect rgb(191, 223, 255)
-        Server-->>Browser:(48)[{content: 'notee', date: '2023-06-05T14:08:40.353Z'},...]
+        Server-->>Browser:[{content: 'notee', date: '2023-06-05T14:08:40.353Z'},...]
         Note over Browser,Server: The browser executes the callback function that renders the notes.
     end
     rect rgb(191, 223, 255)
@@ -33,7 +33,7 @@ sequenceDiagram
     Server-->>Browser:JavaScript file
     Browser->>Server:GET https://studies.cs.helsinki.fi/exampleapp/data.json
     rect rgb(191, 223, 255)
-        Server-->>Browser:(48)[0{content: 'notee', date: '2023-06-05T14:08:40.353Z'},...,<br/>47{content: 'aaa', date: '2023-06-05T16:12:42.227Z'},...]
+        Server-->>Browser:[{content: 'notee', date: '2023-06-05T14:08:40.353Z'},...,<br/>{content: 'aaa', date: '2023-06-05T16:12:42.227Z'},...]
         Note over Browser,Server: The browser executes the callback function that renders the notes <br/> including the new one we submited.
     end
 ```
@@ -53,7 +53,7 @@ sequenceDiagram
     end
     Browser->>Server:GET https://studies.cs.helsinki.fi/exampleapp/data.json
     rect rgb(191, 223, 255)
-        Server-->>Browser:[{content: "notee", date: "2023-06-05T14:08:40.353Z"},…]
+        Server-->>Browser:[{content: "", date: "2023-06-06T10:13:25.850Z"},…]
         Note over Browser,Server: The browser executes the callback function that renders the notes.
     end
 ```
